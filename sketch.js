@@ -25,7 +25,7 @@ function mousePressed(){
 }
 
 function draw(){
-  background(0);
+  background(89,86,93);
   val = slider.value();
   world.gravity.y = val;
   Engine.update(engine);
