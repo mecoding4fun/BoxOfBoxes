@@ -20,7 +20,8 @@ function setup() {
 }
 
 function mousePressed(){
-  boxA = new Box(mouseX, mouseY, 20, 20);
+  var rand = random(5,30);
+  boxA = new Box(mouseX, mouseY, rand, rand);
   boxes.push(boxA);
 }
 
